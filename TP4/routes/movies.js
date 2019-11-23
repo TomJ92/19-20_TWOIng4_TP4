@@ -28,6 +28,26 @@ let movies=[
   poster: "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
   boxOffice: 158737441, // en USD$,
   rottenTomatoesScore: 72
+},
+{
+	id: "tt1375666",
+	movie: "Inception",
+	yearOfRelease: 2010,
+  duration: 148, // en minutes,
+  actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt"],
+  poster: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+  boxOffice: 292568851, // en USD$,
+  rottenTomatoesScore: 87
+},
+{
+	id: "tt8772262",
+	movie: "Midsommar",
+	yearOfRelease: 2019,
+  duration: 147, // en minutes,
+  actors: ["Florence Pugh", "Jack Reynor"],
+  poster: "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_SX300.jpg",
+  boxOffice: 41100000, // en USD$,
+  rottenTomatoesScore: 83
 }];
 let movie_get={}; 
 let movie, yearOfRelease, duration, actors, poster, boxOffice, rottenTomatoesScore = null;
